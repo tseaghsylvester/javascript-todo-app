@@ -1,0 +1,76 @@
+*{
+    margin:  0px;
+    padding:  0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #333;
+    padding-top:  100px;
+}
+
+.app{
+    width: 300px;
+}
+
+.form{
+    padding:  10px 0px;
+    background: #e330e3;
+    display: flex;
+    justify-content: center;
+    gap:  10px;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.form imput{
+    padding: 4px 7px;
+    outline: none;
+}
+
+.form button {
+border: none;
+padding:  5px 10px;
+background: black;
+color: white;
+}
+
+#todo_list {
+    margin-top: 7px;
+    width:  100%;
+    display: flex;
+    background:  #e330e3;
+    border:  1px solid white;
+}
+
+#todo_list .item {
+    display: flex;
+    align-items: center;
+    padding:  10px;
+    border-bottom:  1px solid white;
+}
+#todo_list .itm p {
+    font-weight: bold;
+    color: black;
+}
+#todo_list .item .btns {
+    display: flex;
+    gap: 6px;
+}
+  
+#todo_list .item button { 
+    border: none;
+    padding: 5px 10px;
+    color: white;
+}
+#todo_list .item .edit {
+    background: skyblue;
+
+}
+
+#todo_list .item .delete {
+    background: rgb(143, 0, 0 );
+}
