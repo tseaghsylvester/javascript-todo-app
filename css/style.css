@@ -22,7 +22,7 @@ body {
 
 .form {
     padding: 20px 20px;
-    background: palevioletred;
+    background: purple;
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@ body {
 .form input {
     padding: 10px 10px;
     outline: none;
-    color: blueviolet;
+    color: purple;
     border: 3px solid black;
 }
 
@@ -47,10 +47,10 @@ body {
 }
 
 #todo_list {
-    background-color: green;
+    background-color:purple;
     padding: 20px 20px;
     margin-top: 2px;
-    color: rgb(238, 238, 239);
+    color: purple;
     border: 2px solid black;
     width: 100%;
 
